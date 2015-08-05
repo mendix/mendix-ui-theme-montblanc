@@ -1,0 +1,76 @@
+/*
+* Base Layout
+*
+* Default layout settings
+*/
+
+.mx-layoutcontainer-wrapper {
+
+}
+.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
+
+}
+
+
+/*
+* Regions
+*
+* Used for navigation layouts
+*/
+
+.region-topbar {
+	border:none;
+	> .mx-layoutcontainer-wrapper {
+
+	}
+}
+.region-sidebar {
+	background: linear-gradient(to bottom, #1c1c1c 8%, rgba(28, 28, 28, 0.3) 54%, #ffffff 96%);
+
+	> .mx-layoutcontainer-wrapper {
+
+	}
+}
+.region-content {
+	> .mx-layoutcontainer-wrapper {
+
+	}
+}
+
+
+.navlayout-topbar .region-topbar .mx-navbar {
+
+  background-color: none;
+}
+/*
+* Navbar Brand
+*
+* Used to style your app brand and logo
+*/
+
+.navbar-brand {
+  padding: 31px 45px;
+  margin-left: -22px;
+
+	img {
+			height: 25px;
+		  margin-right: 10px;
+		  content: url(../../img/logo.png);
+		  vertical-align: middle;
+	}
+	a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 100;
+
+		&:hover,
+		&:focus {
+
+		}
+	}
+}
+
+.profile-tablet .navbar-brand {
+	padding: 32px 25px;
+
+}

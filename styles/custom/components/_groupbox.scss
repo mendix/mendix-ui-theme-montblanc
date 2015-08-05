@@ -1,0 +1,129 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Groupbox
+*
+* Default Mendix Groupboxes
+*/
+.mx-groupbox {
+	> .mx-groupbox-header {
+		font-weight: bold;
+margin: 0;
+background: rgba(0, 0, 0, 0.19);
+color: #b7b7b7;
+font-size: 16px;
+border-style: solid;
+border-width: 1px 1px 0 1px;
+border-color: rgba(221, 221, 221, 0.3);
+
+		.mx-groupbox-collapse-icon {
+
+		}
+	}
+	> .mx-groupbox-body {
+
+
+  	}
+  	.mx-groupbox-header + .mx-groupbox-body {
+			border-radius: 0;
+			border-top: none;
+			background-color: rgba(0, 0, 0, 0.09);
+			border-color: rgba(255, 255, 255, 0.24);
+	}
+
+	&.collapsed > .mx-groupbox-header {
+		font-weight: bold;
+margin: 0;
+background: rgba(0, 0, 0, 0.19);
+color: #b7b7b7;
+font-size: 16px;
+border-style: solid;
+border-width: 1px 1px 0 1px;
+border-color: rgba(221, 221, 221, 0.3);
+	}
+}
+
+
+/*
+* Groupbox Headers
+*
+* Alternate header sizes for groupbox
+*/
+.mx-groupbox {
+	&.groupbox-h1 > .mx-groupbox-header {  }
+	&.groupbox-h2 > .mx-groupbox-header {  }
+	&.groupbox-h3 > .mx-groupbox-header {  }
+	&.groupbox-h4 > .mx-groupbox-header {  }
+	&.groupbox-h5 > .mx-groupbox-header {  }
+	&.groupbox-h6 > .mx-groupbox-header {  }
+}
+
+/*
+* Groupbox Callouts
+*
+* Default Mendix Groupboxes rendered as (Bootstrap) callouts
+*/
+.mx-groupbox {
+	&.groupbox-callout {
+		> .mx-groupbox-header,
+		> .mx-groupbox-body {
+			border-radius: 0;
+			border-top: none;
+			background-color: rgba(0, 0, 0, 0.09);
+			border-color: rgba(255, 255, 255, 0.24);
+	  	}
+	  	.mx-groupbox-header + .mx-groupbox-body {
+
+				background-color: rgba(0, 0, 0, 0.09);
+				border-color: rgba(255, 255, 255, 0.24);
+
+	  	}
+	}
+	&.groupbox-callout-info {
+		> .mx-groupbox-header,
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+			font-weight: bold;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.19);
+	color: #b7b7b7;
+	font-size: 16px;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: rgba(221, 221, 221, 0.3);
+		}
+	}
+	&.groupbox-callout-success {
+		> .mx-groupbox-header,
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-warning {
+		> .mx-groupbox-header,
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+	&.groupbox-callout-danger {
+		> .mx-groupbox-header,
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
+
+		}
+	}
+}
