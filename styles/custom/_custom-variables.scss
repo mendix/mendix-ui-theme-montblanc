@@ -41,7 +41,7 @@ $color-layout-bg-secondary:				transparent;
 $color-topbar-bg: 						$color-primary;
 $minimalheight-topbar:					80px;
 // Sidebar 
-$color-sidebar-bg: 						transparent;
+$color-sidebar-bg: 						linear-gradient(to bottom, #1c1c1c 8%, rgba(28, 28, 28, 0.3) 54%, #ffffff 96%);
 // Mobile header
 $m-height-header:						44px;
 // Background Color
@@ -398,14 +398,14 @@ $font-navsidebar-size:					16px;
 $color-navsidebar-bg:					transparent;
 $color-navsidebar-bg-hover:				$color-navsidebar-bg;
 $color-navsidebar-bg-active:            $color-navsidebar-bg;
-$color-navsidebar-text:					#fff;
-$color-navsidebar-text-hover:			#fff;
-$color-navsidebar-text-active:		    #fff;
+$color-navsidebar-text:					$color-text-white;
+$color-navsidebar-text-hover:			$color-text-white;
+$color-navsidebar-text-active:		    $color-text-white;
 
 $color-navsidebar-sub-bg:				rgba(0, 0, 0, 0.50);
 $color-navsidebar-sub-bg-hover:			rgba(0, 0, 0, 0.50);
 // $color-navsidebar-sub-bg-active:		$color-navsidebar-sub-bg;
-$color-navsidebar-sub-text:				#FFF;
+$color-navsidebar-sub-text:				$color-text-white;
 // $color-navsidebar-sub-text-hover:	$color-primary;
 // $color-navsidebar-sub-text-active:	$color-primary;
 
@@ -415,14 +415,14 @@ $color-navsidebar-sub-text:				#FFF;
 $color-navtopbar-bg:					$color-primary;
 $color-navtopbar-bg-hover:				#ECC016;
 $color-navtopbar-bg-active:				#ECC016;
-$color-navtopbar-text:					#fff;
-$color-navtopbar-text-hover:			#fff;
-$color-navtopbar-text-active:			#fff;
+$color-navtopbar-text:					$color-text-white;
+$color-navtopbar-text-hover:			$color-text-white;
+$color-navtopbar-text-active:			$color-text-white;
 
 $color-navtopbar-sub-bg:				$color-primary;
 $color-navtopbar-sub-bg-hover:			$color-primary;
 $color-navtopbar-sub-bg-active:			$color-primary;
-$color-navtopbar-sub-text:				#fff;
+$color-navtopbar-sub-text:				$color-text-white;
 //$color-navtopbar-sub-text-hover:		$color-primary;
 $color-navtopbar-sub-text-active:		$color-primary;
 
@@ -464,7 +464,7 @@ $color-tab-border:						$gray-primary;
 $color-modal-header-border:				$gray-primary;
 
 // Text Color
-$color-modal-header-text:				#000;
+$color-modal-header-text:				$color-text-black;
 
 
 
@@ -503,34 +503,34 @@ $color-modal-header-text:				#000;
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // Extra small screen / phone Deprecated `$screen-xs` as of v3.0.1
-// $screen-xs:                  480px;
-// // Deprecated `$screen-xs-min` as of v3.2.0
-// $screen-xs-min:              $screen-xs;
-// // Deprecated `$screen-phone` as of v3.0.1
-// $screen-phone:               $screen-xs-min;
+$screen-xs:                  480px;
+// Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs;
+// Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min;
 
 // Small screen / tablet Deprecated `$screen-sm` as of v3.0.1
-// $screen-sm:                  768px;
-// $screen-sm-min:              $screen-sm;
-// // Deprecated `$screen-tablet` as of v3.0.1
-// $screen-tablet:              $screen-sm-min;
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+// Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min;
 
 // Medium screen / desktop Deprecated `$screen-md` as of v3.0.1
-// $screen-md:                  992px;
-// $screen-md-min:              $screen-md;
-// // Deprecated `$screen-desktop` as of v3.0.1
-// $screen-desktop:             $screen-md-min;
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+// Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min;
 
 // Large screen / wide desktop Deprecated `$screen-lg` as of v3.0.1
-// $screen-lg:                  1200px;
-// $screen-lg-min:              $screen-lg;
-// // Deprecated `$screen-lg-desktop` as of v3.0.1
-// $screen-lg-desktop:          $screen-lg-min;
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+// Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min;
 
 // So media queries don't overlap when required, provide a maximum
-// $screen-xs-max:              ($screen-sm-min - 1);
-// $screen-sm-max:              ($screen-md-min - 1);
-// $screen-md-max:              ($screen-lg-min - 1);
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
 
 
 
@@ -544,7 +544,7 @@ $color-modal-header-text:				#000;
 
 
 // Text Color
-$m-color-header-text: 					#000;
+$m-color-header-text: 					$color-text-black;
 
 // Header Link Color
 $m-color-header-link:					$color-inverse;

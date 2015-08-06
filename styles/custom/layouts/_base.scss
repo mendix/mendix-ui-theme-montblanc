@@ -1,34 +1,18 @@
 /*
-* Base Layout
-*
-* Default layout settings
-*/
-
-.mx-layoutcontainer-wrapper {
-
-}
-.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
-
-}
-
-
-/*
 * Regions
 *
 * Used for navigation layouts
 */
 
 .region-topbar {
-	border:none;
+	border-style: none;
 	> .mx-layoutcontainer-wrapper {
 
 	}
 }
 .region-sidebar {
-	background: linear-gradient(to bottom, #1c1c1c 8%, rgba(28, 28, 28, 0.3) 54%, #ffffff 96%);
-
 	> .mx-layoutcontainer-wrapper {
-
+		
 	}
 }
 .region-content {
@@ -36,11 +20,19 @@
 
 	}
 }
+.region-footer {
+	> .mx-layoutcontainer-wrapper {
 
+	}
+}
+.layout-sidebar-responsive {
+	.region-sidebar-fixed {
+		background: $color-sidebar-bg;
+	}
+}
 
 .navlayout-topbar .region-topbar .mx-navbar {
-
-  background-color: none;
+	background-color: transparent;
 }
 /*
 * Navbar Brand
