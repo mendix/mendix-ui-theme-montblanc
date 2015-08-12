@@ -1,9 +1,9 @@
-/*
-* Base
-*
-* Default settings
-*/
-/* line 7, base/_base.scss */
+/* ==========================================================================
+   Base
+
+   Default settings
+========================================================================== */
+/* line 6, base/_base.scss */
 body {
   background-image: url("../../img/background.png");
   background-size: 100% 100%;
@@ -1213,19 +1213,13 @@ body[dir="ltr"] .mx-header {
 * Mendix Page Template Documentation
 * Special styles for presenting Page Template Tablet Wizard Default
 */
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
-/*
-* Card
-*
-*
-*/
-/* line 15, buildingblocks/_card.scss */
+/* ==========================================================================
+   Card
+========================================================================== */
+/* line 4, buildingblocks/_card.scss */
 .card {
   background-color: rgba(148, 192, 234, 0.39);
-  color: #fff;
+  color: white;
   border: 1px solid rgba(148, 148, 148, 0.74);
   font-weight: 100;
   padding: 20px;
@@ -1233,7 +1227,7 @@ body[dir="ltr"] .mx-header {
   background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
 }
 
-/* line 25, buildingblocks/_card.scss */
+/* line 14, buildingblocks/_card.scss */
 .background-info {
   background-color: rgba(148, 192, 234, 0.39) !important;
   color: #fff;
@@ -1245,7 +1239,7 @@ body[dir="ltr"] .mx-header {
   background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
 }
 
-/* line 36, buildingblocks/_card.scss */
+/* line 25, buildingblocks/_card.scss */
 .background-success-light {
   background-color: rgba(148, 192, 234, 0.39) !important;
   color: #fff;
@@ -1257,7 +1251,7 @@ body[dir="ltr"] .mx-header {
   background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
 }
 
-/* line 48, buildingblocks/_card.scss */
+/* line 37, buildingblocks/_card.scss */
 .card h2 {
   text-align: left;
   font-weight: 100;
@@ -1265,28 +1259,28 @@ body[dir="ltr"] .mx-header {
   margin-left: 30px;
 }
 
-/* line 56, buildingblocks/_card.scss */
+/* line 45, buildingblocks/_card.scss */
 .page-dashboard-actions .card .btn-primary {
   margin-top: -100px;
 }
 
-/* line 60, buildingblocks/_card.scss */
+/* line 49, buildingblocks/_card.scss */
 .page-dashboard-actions .card .btn-default {
   margin-top: -100px;
 }
 
 /* Title + button + border below title and button */
-/* line 70, buildingblocks/_card.scss */
+/* line 59, buildingblocks/_card.scss */
 .card-header-action .btn {
   margin-top: 30px;
 }
 
-/* line 77, buildingblocks/_card.scss */
+/* line 66, buildingblocks/_card.scss */
 .card-title {
   color: #fff;
 }
 
-/* line 80, buildingblocks/_card.scss */
+/* line 69, buildingblocks/_card.scss */
 .card-subtitle {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.68);
@@ -1295,11 +1289,11 @@ body[dir="ltr"] .mx-header {
   margin-bottom: 20px;
 }
 
-/* line 90, buildingblocks/_card.scss */
+/* line 79, buildingblocks/_card.scss */
 .card-icon {
   background-color: transparent !important;
 }
-/* line 92, buildingblocks/_card.scss */
+/* line 81, buildingblocks/_card.scss */
 .card-icon .glyphicon {
   font-size: 60px;
   position: relative;
@@ -1570,16 +1564,12 @@ body[dir="ltr"] .mx-header {
 }
 
 /* Phone Specific Styling */
-/*
-* Mendix Documentation
-* Special styles for presenting profilecard building block
-*/
-/*
-* Templategrid Profile Card
-*
-* Profile card styled for templategrid
-*/
-/* line 13, buildingblocks/templategrid/_templategrid-profilecard.scss */
+/* ==========================================================================
+   Templategrid Profile Card
+
+   Profile card styled for templategrid
+========================================================================== */
+/* line 6, buildingblocks/templategrid/_templategrid-profilecard.scss */
 .templategrid-profilecard {
   padding: 20px;
   border: 1px solid rgba(221, 221, 221, 0.29);
