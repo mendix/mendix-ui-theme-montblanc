@@ -4,7 +4,7 @@
    Default settings
 ========================================================================== */
 body {
-  background-image: url(../img/background.png);
+  background-image: url(../../../img/background.png);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -721,7 +721,7 @@ h1, h2, h3, h4, h5, h6,
 .navbar-brand img {
   height: 25px;
   margin-right: 10px;
-  content: url(../img/logo.png);
+  content: url(../../../img/logo.png);
   vertical-align: middle;
 }
 .navbar-brand a {
@@ -799,7 +799,7 @@ body[dir="ltr"] .mx-header {
 .page-dashboard {
   background-color: transparent;
   background-color: #eff4f7;
-  background-image: url(../img/background.png);
+  background-image: url(../../../img/background.png);
   background-size: cover;
   background-position: top center;
 }
