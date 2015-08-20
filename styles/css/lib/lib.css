@@ -1911,8 +1911,7 @@ img.img-auto,
 .modal-dialog .modal-content {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(221, 221, 221, 0.41);
-  border: 1px solid transparent;
+  border: 1px solid #DDD;
 }
 .modal-dialog .modal-content .modal-header {
   border-radius: 0;
