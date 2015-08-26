@@ -35,20 +35,20 @@
   /* Styles here */
 }
 .btn-primary {
-    border-color: rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0.5);
+    /*border-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);*/
     &.btn-bordered {
-        background-color: transparent;
-        color: #A6A6A6;
+      /*  background-color: transparent;
+        color: #A6A6A6;*/
         &:hover {
-          background-color: #A6A6A6;
+          /*background-color: #A6A6A6;
           color: #FFF;
-          border: 1px solid #A6A6A6;
+          border: 1px solid #A6A6A6;*/
         }
     }
     &:hover {
-      background-color:#000;
-      border:1px solid #000;
+      /*background-color:#000;
+      border:1px solid #000;*/
     }
 }
 .btn-inverse {
@@ -67,7 +67,7 @@
   /* Styles here */
 }
 .btn-white {
-  
+
 }
 
 // Buttons appear disabled
