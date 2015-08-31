@@ -7,15 +7,15 @@ p {
 	color: rgba(205, 205, 205, 0.77);
 }
 ul {
-	color: rgba(190, 190, 190, 0.98);
+	color: rgba(255, 255, 255, 0.98);
 }
 label {
-	color: rgba(255, 255, 255, 0.5);
+	//color: rgba(255, 255, 255, 0.5);
 }
 .mx-title {
 	color: $color-text-white;
 }
-h1, .h1, .h1 > * {  } 
+h1, .h1, .h1 > * {  }
 h2, .h2, .h2 > * {  }
 h3, .h3, .h3 > * {  }
 h4, .h4, .h4 > * {  }
@@ -29,17 +29,17 @@ h1, h2, h3, h4, h5, h6,
 
 
 // Text Weights
-.text-light, .text-light > *, .text-light label { 
-	
+.text-light, .text-light > *, .text-light label {
+
 }
-.text-normal, .text-normal > *, .text-normal label  { 
-	
+.text-normal, .text-normal > *, .text-normal label  {
+
 }
-.text-semibold, .text-semibold > *, .text-semibold label  { 
-	
+.text-semibold, .text-semibold > *, .text-semibold label  {
+
 }
-.text-bold, .text-bold > *, .text-bold label  { 
-	
+.text-bold, .text-bold > *, .text-bold label  {
+
 }
 
 
@@ -61,13 +61,13 @@ h1, h2, h3, h4, h5, h6,
 //
 // Text Colors
 // ==========================================================================
-.text-gray-darker 	{ }				
+.text-gray-darker 	{ }
 .text-gray-dark 	{ }
 .text-gray 			{ }
 .text-gray-light	{ }
 .text-gray-primary	{ }
-.text-gray-lighter	{ }	
-	 				 
+.text-gray-lighter	{ }
+
 .text-default, .text-default:hover	{ }
 .text-primary, .text-primary:hover	{ }
 .text-info, .text-info:hover		{ }

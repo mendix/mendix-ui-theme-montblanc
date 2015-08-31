@@ -1382,12 +1382,12 @@ textarea.form-control, textarea.readonly-input {
   font-weight: bold;
   border-radius: 0;
   margin: 0;
-  background: #DDD;
-  color: #b7b7b7;
+  background: rgba(0, 0, 0, 0.19);
+  color: #d9d9d9;
   font-size: 16px;
   border-style: solid;
   border-width: 1px 1px 0 1px;
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox > .mx-groupbox-header .mx-groupbox-collapse-icon {
   margin-top: 0.1em;
@@ -1395,7 +1395,7 @@ textarea.form-control, textarea.readonly-input {
 .mx-groupbox > .mx-groupbox-body {
   border-radius: 0;
   padding: 10px 15px;
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
   background-color: #FFF;
   border-style: solid;
   border-width: 1px;
@@ -1476,68 +1476,68 @@ textarea.form-control, textarea.readonly-input {
    Groupbox Colors
 ========================================================================== */
 .mx-groupbox.groupbox-default > .mx-groupbox-header {
-  background: #DDD;
-  color: #b7b7b7;
-  border-color: #DDD;
+  background: rgba(0, 0, 0, 0.19);
+  color: #d9d9d9;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-default > .mx-groupbox-body {
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-header {
-  background: #ffcb00;
+  background: rgba(0, 0, 0, 0.19);
   color: #b38e00;
-  border-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-body {
-  border-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-inverse > .mx-groupbox-header {
-  background: #3D3F41;
+  background: rgba(0, 0, 0, 0.19);
   color: #18191a;
-  border-color: #3D3F41;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-inverse > .mx-groupbox-body {
-  border-color: #3D3F41;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-success > .mx-groupbox-header {
-  background: #8CC152;
+  background: rgba(0, 0, 0, 0.19);
   color: #659234;
-  border-color: #8CC152;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-success > .mx-groupbox-body {
-  border-color: #8CC152;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-info > .mx-groupbox-header {
-  background: #8AD4ED;
+  background: rgba(0, 0, 0, 0.19);
   color: #48bce3;
-  border-color: #8AD4ED;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-info > .mx-groupbox-body {
-  border-color: #8AD4ED;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-warning > .mx-groupbox-header {
-  background: #F6BB42;
+  background: rgba(0, 0, 0, 0.19);
   color: #e19b0b;
-  border-color: #F6BB42;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-warning > .mx-groupbox-body {
-  border-color: #F6BB42;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-danger > .mx-groupbox-header {
-  background: #D9534F;
+  background: rgba(0, 0, 0, 0.19);
   color: #b52b27;
-  border-color: #D9534F;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-danger > .mx-groupbox-body {
-  border-color: #D9534F;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-header {
-  background: #FFF;
+  background: rgba(0, 0, 0, 0.19);
   color: #d9d9d9;
-  border-color: #FFF;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-body {
-  border-color: #FFF;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-transparent {
   background-color: transparent;
@@ -1600,28 +1600,28 @@ textarea.form-control, textarea.readonly-input {
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-body {
-  background-color: #e8f6fb;
+  background-color: #48bce3;
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header {
   color: #8AD4ED;
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-body {
-  background-color: #e8f3dc;
+  background-color: #659234;
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header {
   color: #8CC152;
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-body {
-  background-color: #fdf1d9;
+  background-color: #e19b0b;
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header {
   color: #F6BB42;
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-body {
-  background-color: #f7dddc;
+  background-color: #b52b27;
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header {
   color: #D9534F;
@@ -2392,7 +2392,7 @@ img.img-auto,
   color: #FFF;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-  background-color: #eaeaea;
+  background-color: #e2e2e2;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
@@ -2418,7 +2418,7 @@ img.img-auto,
   color: #FFF;
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-  background-color: #eaeaea;
+  background-color: #e2e2e2;
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,

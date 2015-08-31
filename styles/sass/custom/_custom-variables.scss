@@ -308,17 +308,17 @@ $color-grid-bg-striped:				rgba(0, 0, 0, 0.17);
 //##
 
 // Background Color
-// $color-groupbox-default:				$color-default;
-// $color-groupbox-inverse:				$color-inverse;
-// $color-groupbox-primary:				$color-primary;
-// $color-groupbox-info:				$color-info;
-// $color-groupbox-success:				$color-success;
-// $color-groupbox-warning:				$color-warning;
-// $color-groupbox-danger:				$color-danger;
-// $color-groupbox-white:				#FFF;
+$color-groupbox-default:				rgba(0, 0, 0, 0.19);
+$color-groupbox-inverse:				$color-groupbox-default;
+$color-groupbox-primary:			$color-groupbox-default;
+$color-groupbox-info:				$color-groupbox-default;
+$color-groupbox-success:				$color-groupbox-default;
+$color-groupbox-warning:				$color-groupbox-default;
+$color-groupbox-danger:		$color-groupbox-default;
+$color-groupbox-white:			$color-groupbox-default;
 
 // Text Color
-$color-groupbox-text-default: 	       	darken($color-default,15%);
+$color-groupbox-text-default: 	       	darken(#fff, 15% );
 $color-groupbox-text-inverse: 		    darken($color-inverse,15%);
 $color-groupbox-text-primary: 		    darken($color-primary,15%);
 $color-groupbox-text-info: 				darken($color-info,15%);
@@ -335,16 +335,17 @@ $color-groupbox-text-white: 		    darken(#fff,15%);
 //##
 
 // Text and Border Color
-// $color-callout-info:					$color-info;
-// $color-callout-success:				$color-success;
-// $color-callout-warning:				$color-warning;
-// $color-callout-danger:				$color-danger;
+
+$color-callout-info:					$color-info;
+$color-callout-success:				$color-success;
+$color-callout-warning:				$color-warning;
+$color-callout-danger:				$color-danger;
 
 // Background Color
-// $color-callout-bg-info:				$color-info-lighter;
-// $color-callout-bg-success:			$color-success-lighter;
-// $color-callout-bg-warning:			$color-warning-lighter;
-// $color-callout-bg-danger:			$color-danger-lighter;
+$color-callout-bg-info:				 darken($color-info, 15%);
+$color-callout-bg-success:			 darken($color-success, 15%);
+$color-callout-bg-warning:		 darken($color-warning, 15%);
+$color-callout-bg-danger:		 darken($color-danger, 15%);
 
 
 
@@ -437,17 +438,17 @@ $color-navtopbar-border:				none;
 //##
 
 // Text Color
-// $color-tab-text-active:				$color-text-black;
+$color-tab-text-active:				$color-text-black;
 $color-tab-text: 						$color-text-white;
-// $color-tab-lined-text-active:		$color-primary;
+$color-tab-lined-text-active:		$color-primary;
 
 // Border Color
 $color-tab-border:						$gray-primary;
-//$color-tab-lined-border:				$color-primary;
+$color-tab-lined-border:				$color-primary;
 
 // Background Color
-// $color-tab-bg-hover:					lighten($color-tab-border,5);
-// $color-tab-bg-active:				$color-primary;
+$color-tab-bg-hover:					lighten($color-tab-border,2);
+$color-tab-bg-active:				$color-primary;
 
 
 

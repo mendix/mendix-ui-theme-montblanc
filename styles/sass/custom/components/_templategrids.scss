@@ -6,17 +6,10 @@
 .mx-templategrid {
 	/* Styles here */
 	.mx-templategrid-item {
-		/*border:none;
-		padding: 8px 8px 8px 8px;
-		cursor: default;
-		background-color:rgba(44, 44, 44, 0.49);*/
 		&:hover {
-		//	background-color: rgba(255, 255, 255, 0.22)!important;
 		}
 		&.selected {
-		//	background-color:rgba(255, 255, 255, 0.37) !important;
 			&:hover {
-			//	background-color: rgba(255, 255, 255, 0.22)!important;
 			}
 		}
 	}
@@ -59,14 +52,7 @@
 
 	}
 	.mx-templategrid-item {
-		/*color: #B2B3B3;
-		background-color: rgba(0, 0, 0, 0.22);
-		padding: 8px 8px 8px 8px;
-		cursor: default;
-		border-left: none;
-		border-right: none;
-		border-top: 1px solid rgba(221, 221, 221, 0.17);
-		border-bottom: 1px solid rgba(221, 221, 221, 0.24);*/
+
 	}
 }
 

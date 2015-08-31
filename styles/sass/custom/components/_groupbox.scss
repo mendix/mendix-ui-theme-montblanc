@@ -4,38 +4,19 @@
    Default Mendix Groupboxes
 ========================================================================== */
 .mx-groupbox {
-	/* Styles here */
+
 	> .mx-groupbox-header {
-		font-weight: bold;
-		margin: 0;
-		background: rgba(0, 0, 0, 0.19);
-		color: #b7b7b7;
-		font-size: 16px;
-		border-style: solid;
-		border-width: 1px 1px 0 1px;
-		border-color: rgba(221, 221, 221, 0.3);
+
 		.mx-groupbox-collapse-icon {
 			/* Styles here */
 		}
 	}
 	> .mx-groupbox-body {
-		/* Styles here */
-  	}
+ 			background-color: rgba(255, 255, 255, 0.19);  	}
   	.mx-groupbox-header + .mx-groupbox-body {
-		border-radius: 0;
-		border-top: none;
-		background-color: rgba(0, 0, 0, 0.09);
-		border-color: rgba(255, 255, 255, 0.24);
+
 	}
 	&.collapsed > .mx-groupbox-header {
-		font-weight: bold;
-		margin: 0;
-		background: rgba(0, 0, 0, 0.19);
-		color: #b7b7b7;
-		font-size: 16px;
-		border-style: solid;
-		border-width: 1px 1px 0 1px;
-		border-color: rgba(221, 221, 221, 0.3);
 	}
 }
 
@@ -48,14 +29,9 @@
 	&.groupbox-callout {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
-			border-radius: 0;
-			border-top: none;
-			background-color: rgba(0, 0, 0, 0.09);
-			border-color: rgba(255, 255, 255, 0.24);
+
 	  	}
 	  	.mx-groupbox-header + .mx-groupbox-body {
-			background-color: rgba(0, 0, 0, 0.09);
-			border-color: rgba(255, 255, 255, 0.24);
 	  	}
 	}
 	&.groupbox-callout-info {
@@ -64,14 +40,6 @@
 
 		}
 		> .mx-groupbox-header {
-			font-weight: bold;
-			margin: 0;
-			background: rgba(0, 0, 0, 0.19);
-			color: #b7b7b7;
-			font-size: 16px;
-			border-style: solid;
-			border-width: 1px 1px 0 1px;
-			border-color: rgba(221, 221, 221, 0.3);
 		}
 	}
 	&.groupbox-callout-success {
