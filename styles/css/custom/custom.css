@@ -300,6 +300,7 @@ a:hover {
   /* Styles here */
 }
 .mx-navigationtree .navbar-inner ul li {
+  padding: 15px 0;
   /* Styles here */
 }
 .mx-navigationtree .navbar-inner ul li a {
@@ -308,10 +309,12 @@ a:hover {
 .mx-navigationtree .navbar-inner ul li a:hover,
 .mx-navigationtree .navbar-inner ul li a:focus,
 .mx-navigationtree .navbar-inner ul li a.active {
+  border-left: 4px solid #ffcb00;
   /* Styles here */
 }
 .mx-navigationtree .navbar-inner ul li a.active {
   /* Styles here */
+  border-left: 4px solid #ffcb00;
 }
 .mx-navigationtree li.mx-navigationtree-has-items {
   /* Styles here */

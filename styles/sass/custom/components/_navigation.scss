@@ -5,7 +5,7 @@
 ========================================================================== */
 .mx-navbar {
 	/* Styles here */
-	ul.nav { 
+	ul.nav {
 		/* Styles here */
 		// Navigation item
 		> li.mx-navbar-item > a {
@@ -33,11 +33,11 @@
 			}
 		}
 
-		> .mx-navbar-item > a:hover, 
+		> .mx-navbar-item > a:hover,
 		> .mx-navbar-item > a:focus,
 		> .mx-navbar-item.active a,
-		> .mx-navbar-item.open > a, 
-		> .mx-navbar-item.open > a:hover, 
+		> .mx-navbar-item.open > a,
+		> .mx-navbar-item.open > a:hover,
 		> .mx-navbar-item.open > a:focus {
 			/* When hovering or the dropdown is open */
 			.caret {
@@ -57,7 +57,7 @@
 
 		}
 		.mx-navbar-item.open .dropdown-menu {
-			
+
 			> li.mx-navbar-subitem > a {
 
 				&:hover,
@@ -85,6 +85,7 @@
 	.navbar-inner ul {
 		/* Styles here */
 		li {
+				padding: 15px 0;
 			/* Styles here */
 			a {
 				/* Styles here */
@@ -100,6 +101,8 @@
 			a:hover,
 			a:focus,
 			a.active {
+
+				border-left: 4px solid #ffcb00;
 				/* Styles here */
 				.caret {
 
@@ -108,6 +111,7 @@
 
             a.active {
  			/* Styles here */
+					border-left: 4px solid #ffcb00;
             }
 		}
 	}
@@ -127,7 +131,7 @@
 
 					}
 					&.active {
-	
+
 		            }
 				}
 			}
@@ -163,25 +167,25 @@
 
 	// Two menu items
 	&.menubar-col-6 ul.mx-menubar-list li.mx-menubar-item {
-		
+
 	}
 	// Three menu items
 	&.menubar-col-4 ul.mx-menubar-list li.mx-menubar-item {
-		
+
 	}
 	// Four menu items
 	&.menubar-col-3 ul.mx-menubar-list li.mx-menubar-item {
-		
+
 	}
 	// Five menu items
 	&.menubar-col-3 ul.mx-menubar-list li.mx-menubar-item {
-		
+
 	}
 }
 
 // Vertical variation specifics
 .mx-menubar-vertical {
-	
+
 	ul.mx-menubar-list {
 		li.mx-menubar-item {
 			a {
@@ -199,4 +203,3 @@
 		}
 	}
 }
-
