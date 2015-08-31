@@ -566,29 +566,29 @@ textarea.form-control, textarea.readonly-input {
 
 .btn-primary, .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.multilevel-grid .mx-grid-search-button {
   border-color: rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #A6A6A6;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #FFF;
 }
 .btn-primary:hover, .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.multilevel-grid .mx-grid-search-button:hover, .btn-primary:focus, .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.multilevel-grid .mx-grid-search-button:focus, .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
   border-color: rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #A6A6A6;
+  background-color: rgba(230, 230, 230, 0.5);
+  color: #FFF;
 }
 .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
   background-image: none;
 }
 .btn-primary.disabled, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.mx-grid-search-button, .btn-primary.disabled:hover, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:hover, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:hover, .btn-primary.disabled:focus, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:focus, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:focus, .btn-primary.disabled:active, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:active, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:active, .btn-primary.disabled.active, .mx-grid.datagrid-fullsearch .disabled.active.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.active.mx-grid-search-button, .btn-primary[disabled], .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button, .mx-grid.multilevel-grid [disabled].mx-grid-search-button, .btn-primary[disabled]:hover, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:hover, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:hover, .btn-primary[disabled]:focus, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:focus, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:focus, .btn-primary[disabled]:active, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:active, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:active, .btn-primary[disabled].active, .mx-grid.datagrid-fullsearch [disabled].active.mx-grid-search-button, .mx-grid.multilevel-grid [disabled].active.mx-grid-search-button, fieldset[disabled] .btn-primary, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:hover, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:focus, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:active, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .active.mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .active.mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .active.mx-grid-search-button {
   border-color: rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .btn-primary.btn-bordered, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.2);
 }
 .btn-primary.btn-bordered:hover, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:hover, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:hover, .btn-primary.btn-bordered:focus, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:focus, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:focus, .btn-primary.btn-bordered:active, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:active, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:active, .btn-primary.btn-bordered.active, .mx-grid.datagrid-fullsearch .btn-bordered.active.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.active.mx-grid-search-button, .open > .btn-primary.btn-bordered.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .btn-bordered.dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .btn-bordered.dropdown-toggle.mx-grid-search-button {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(0, 0, 0, 0.2);
-  color: #A6A6A6;
+  color: #FFF;
 }
 
 .btn-inverse {
