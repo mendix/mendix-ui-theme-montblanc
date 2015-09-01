@@ -22,7 +22,9 @@
 // Default Mendix Templategrid Widget Hover
 // ==========================================================================
 .templategrid-hover.mx-templategrid {
+			/* Styles here */
 	.mx-templategrid-item {
+				/* Styles here */
 		&:hover {
 
 		}
@@ -36,8 +38,9 @@
 // Default Mendix Templategrid Widget with selection enabled
 // ==========================================================================
 .templategrid-selectable.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-
+		/* Styles here */
 	}
 }
 
@@ -48,11 +51,12 @@
 // Default Mendix Templategrid Widget with borders between items
 // ==========================================================================
 .templategrid-lined.mx-templategrid {
+		/* Styles here */
 	.mx-grid-content {
-
+		/* Styles here */
 	}
 	.mx-templategrid-item {
-
+	  /* Styles here */
 	}
 }
 
@@ -64,8 +68,9 @@
 // Default Mendix Templategrid Widget with background between items
 // ==========================================================================
 .templategrid-striped.mx-templategrid {
+			/* Styles here */
 	.mx-templategrid-row:nth-child(odd) .mx-templategrid-item {
-		//background-color: rgba(27, 27, 27, 0.3);
+			/* Styles here */
 	}
 }
 
@@ -76,8 +81,9 @@
 // Default Mendix Templategrid Widget without styling
 // ==========================================================================
 .templategrid-stylingless.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-
+		/* Styles here */
 
 		&:hover {
 
@@ -98,7 +104,8 @@
 //  Default Mendix Templategrid Widget without background and padding in items
 // ==========================================================================
 .templategrid-transparent.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-
+		/* Styles here */
 	}
 }

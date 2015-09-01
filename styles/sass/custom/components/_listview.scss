@@ -12,19 +12,24 @@
 		/* Load more button */
 	}
 	.mx-listview-list {
-
+		/* Styles here */
 	}
 	.mx-listview-item {
+			/* Styles here */
 		&:hover {
+			/* Styles here */
 		}
 		&.selected {
-
+			/* Styles here */
 			&:hover {
+				/* Styles here */
 			}
 			&:nth-child(2n+1):hover {
+				/* Styles here */
 			}
 		}
 		&:nth-child(2n+1) {
+			 /* Styles here */
 		}
 	}
 }
@@ -39,7 +44,7 @@
 	.mx-listview-item {
 		&:hover,
 		&:active {
-
+				/* Styles here */
 		}
 	}
 }
@@ -52,12 +57,12 @@
 // ==========================================================================
 .listview-lined.mx-listview {
 	.mx-listview-item {
-
+			/* Styles here */
 		&:first-child {
-
+				/* Styles here */
 		}
 		&:last-child {
-
+				/* Styles here */
 		}
 	}
 }
@@ -70,6 +75,7 @@
 // ==========================================================================
 .listview-striped.mx-listview {
 	.mx-listview-item:nth-child(2n+1) {
+			/* Styles here */
 	}
 }
 
@@ -81,7 +87,7 @@
 // ==========================================================================
 .listview-seperated.mx-listview {
 	.mx-listview-item {
-
+		/* Styles here */
 	}
 }
 
@@ -93,14 +99,14 @@
 // ==========================================================================
 .listview-stylingless.mx-listview {
 	.mx-listview-item {
-
+			/* Styles here */
 		&:hover {
-
+			/* Styles here */
 		}
 		&.selected {
-
+			/* Styles here */
 			&:hover {
-			
+				/* Styles here */
 			}
 		}
 	}

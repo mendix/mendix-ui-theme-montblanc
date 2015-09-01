@@ -24,7 +24,7 @@
 		/* Table body */
 		.mx-datagrid-body tr {
 
-			background-color: rgba(0, 0, 0, 0.17); 
+			background-color: rgba(0, 0, 0, 0.17);
 
 			td {
 
@@ -100,6 +100,7 @@
 // ==========================================================================
 .datagrid-bordered.mx-datagrid {
 	.mx-datagrid-head-table {
+			/* Styles here */
 		th {
 
 		}
@@ -108,6 +109,7 @@
 		}
 	}
 	.mx-datagrid-body-table {
+			/* Styles here */
 		.mx-datagrid-body tr {
 			td {
 
@@ -115,6 +117,7 @@
 		}
 	}
 	.mx-datagrid-foot {
+			/* Styles here */
 		> tr > th {
 
 		}
@@ -131,6 +134,7 @@
 //   Default Mendix Datagrid Widget with hover
 // ==========================================================================
 .datagrid-hover.mx-datagrid {
+			/* Styles here */
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:hover td {
@@ -148,6 +152,7 @@
 // Default Mendix Datagrid Widget with large rows
 // ==========================================================================
 .datagrid-large.mx-datagrid {
+			/* Styles here */
 	.mx-datagrid-head-table {
 		.mx-datagrid-head-wrapper {
 
@@ -169,6 +174,7 @@
 // Default Mendix Datagrid Widget with transparent background for row and cells
 // ==========================================================================
 .datagrid-transparent.mx-datagrid {
+		/* Styles here */
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:nth-of-type(odd) {
@@ -188,6 +194,7 @@
 // Default Mendix Datagrid Widget with adjusted search field. Only 1 search field is allowed
 // ==========================================================================
 .datagrid-fullsearch.mx-datagrid {
+		/* Styles here */
 	.mx-grid-search-button {
 
 	}

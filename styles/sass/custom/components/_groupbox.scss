@@ -29,44 +29,49 @@
 	&.groupbox-callout {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
-
+						/* Styles here */
 	  	}
 	  	.mx-groupbox-header + .mx-groupbox-body {
+						/* Styles here */
 	  	}
 	}
 	&.groupbox-callout-info {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
-
+						/* Styles here */
 		}
 		> .mx-groupbox-header {
+					/* Styles here */
 		}
 	}
 	&.groupbox-callout-success {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
+					/* Styles here */
 
 		}
 		> .mx-groupbox-header {
+					/* Styles here */
 
 		}
 	}
 	&.groupbox-callout-warning {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
+					/* Styles here */
 
 		}
 		> .mx-groupbox-header {
-
+					/* Styles here */
 		}
 	}
 	&.groupbox-callout-danger {
 		> .mx-groupbox-header,
 		> .mx-groupbox-body {
-
+					/* Styles here */
 		}
 		> .mx-groupbox-header {
-
+					/* Styles here */
 		}
 	}
 }

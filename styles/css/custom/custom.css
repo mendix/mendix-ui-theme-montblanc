@@ -50,6 +50,12 @@ a:hover {
   /* Styles here */
 }
 
+.btn,
+.mx-button,
+.mx-link {
+  /* Styles here */
+}
+
 .btn-default {
   /* Styles here */
 }
@@ -116,6 +122,32 @@ a:hover {
   /* Body */
 }
 
+.datagrid-bordered.mx-datagrid .mx-datagrid-head-table {
+  /* Styles here */
+}
+.datagrid-bordered.mx-datagrid .mx-datagrid-body-table {
+  /* Styles here */
+}
+.datagrid-bordered.mx-datagrid .mx-datagrid-foot {
+  /* Styles here */
+}
+
+.datagrid-hover.mx-datagrid {
+  /* Styles here */
+}
+
+.datagrid-large.mx-datagrid {
+  /* Styles here */
+}
+
+.datagrid-transparent.mx-datagrid {
+  /* Styles here */
+}
+
+.datagrid-fullsearch.mx-datagrid {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Dataview
 
@@ -143,6 +175,9 @@ a:hover {
   /* Styles here */
 }
 .mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-button:hover {
+  /* Styles here */
+}
+.mx-grid .mx-grid-controlbar .mx-grid-pagingbar .mx-grid-paging-status {
   /* Styles here */
 }
 .mx-grid .mx-grid-controlbar .mx-grid-searchbar {
@@ -181,10 +216,71 @@ a:hover {
 
 	Default Mendix Groupboxes rendered as (Bootstrap) callouts
 ========================================================================== */
+.mx-groupbox.groupbox-callout > .mx-groupbox-header,
+.mx-groupbox.groupbox-callout > .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout .mx-groupbox-header + .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-info > .mx-groupbox-header,
+.mx-groupbox.groupbox-callout-info > .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-info > .mx-groupbox-header {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-success > .mx-groupbox-header,
+.mx-groupbox.groupbox-callout-success > .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-success > .mx-groupbox-header {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-warning > .mx-groupbox-header,
+.mx-groupbox.groupbox-callout-warning > .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-warning > .mx-groupbox-header {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-danger > .mx-groupbox-header,
+.mx-groupbox.groupbox-callout-danger > .mx-groupbox-body {
+  /* Styles here */
+}
+.mx-groupbox.groupbox-callout-danger > .mx-groupbox-header {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Inputs
 ========================================================================== */
+.form-control {
+  /* Styles here */
+}
+
+textarea.form-control {
+  /* Styles here */
+}
+
 .form-control:focus {
+  /* Styles here */
+}
+
+.mx-textarea label {
+  /* Styles here */
+}
+
+.form-group div[class*='textBox'] > label,
+.form-group div[class*='textArea'] > label {
+  /* Styles here */
+}
+
+.readonly-input label {
+  /* Styles here */
+}
+
+.readonly-input-alert label {
   /* Styles here */
 }
 
@@ -205,6 +301,62 @@ a:hover {
 }
 .mx-listview > .mx-button {
   /* Load more button */
+}
+.mx-listview .mx-listview-list {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item:hover {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item.selected {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item.selected:hover {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item.selected:nth-child(2n+1):hover {
+  /* Styles here */
+}
+.mx-listview .mx-listview-item:nth-child(2n+1) {
+  /* Styles here */
+}
+
+.listview-hover.mx-listview .mx-listview-item:hover, .listview-hover.mx-listview .mx-listview-item:active {
+  /* Styles here */
+}
+
+.listview-lined.mx-listview .mx-listview-item {
+  /* Styles here */
+}
+.listview-lined.mx-listview .mx-listview-item:first-child {
+  /* Styles here */
+}
+.listview-lined.mx-listview .mx-listview-item:last-child {
+  /* Styles here */
+}
+
+.listview-striped.mx-listview .mx-listview-item:nth-child(2n+1) {
+  /* Styles here */
+}
+
+.listview-seperated.mx-listview .mx-listview-item {
+  /* Styles here */
+}
+
+.listview-stylingless.mx-listview .mx-listview-item {
+  /* Styles here */
+}
+.listview-stylingless.mx-listview .mx-listview-item:hover {
+  /* Styles here */
+}
+.listview-stylingless.mx-listview .mx-listview-item.selected {
+  /* Styles here */
+}
+.listview-stylingless.mx-listview .mx-listview-item.selected:hover {
+  /* Styles here */
 }
 
 /* ==========================================================================
@@ -232,6 +384,15 @@ a:hover {
 }
 
 /* Default Mendix Window Modal */
+.mx-window.mx-window-view .mx-window-body > .mx-dataview > .mx-dataview-content,
+.mx-window.mx-window-view .mx-window-body > .mx-placeholder > .mx-dataview > .mx-dataview-content {
+  /* Styles here */
+}
+.mx-window.mx-window-view .mx-window-body > .mx-dataview > .mx-dataview-controls,
+.mx-window.mx-window-view .mx-window-body > .mx-placeholder > .mx-dataview > .mx-dataview-controls {
+  /* Styles here */
+}
+
 /* Default Mendix Login Modal */
 .mx-login {
   /* Styles here */
@@ -240,6 +401,9 @@ a:hover {
   /* Styles here */
 }
 .mx-login .modal-content {
+  /* Styles here */
+}
+.mx-login .modal-content input:focus {
   /* Styles here */
 }
 .mx-login .modal-header,
@@ -303,7 +467,7 @@ a:hover {
   padding: 15px 0;
   /* Styles here */
 }
-.mx-navigationtree .navbar-inner ul li a {
+.mx-navigationtree .navbar-inner ul li a .caret {
   /* Styles here */
 }
 .mx-navigationtree .navbar-inner ul li a:hover,
@@ -344,6 +508,10 @@ a:hover {
   /* Styles here */
 }
 
+.mx-menubar-vertical {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Navigation List
 
@@ -356,6 +524,14 @@ a:hover {
   /* Styles here */
 }
 .mx-navigationlist .mx-navigationlist-item:hover {
+  /* Styles here */
+}
+
+.navigationlist-hover.mx-navigationlist {
+  /* Styles here */
+}
+
+.navigationlist-lined.mx-navigationlist .mx-navigationlist-item {
   /* Styles here */
 }
 
@@ -385,6 +561,17 @@ a:hover {
   /* Styles here */
 }
 
+.tab-lined.mx-tabcontainer .mx-tabcontainer-tabs {
+  /* Styles here */
+}
+
+.tab-justified.mx-tabcontainer .mx-tabcontainer-tabs {
+  /* Styles here */
+}
+
+.tab-bordered.mx-tabcontainer {
+  /* Styles here */
+}
 .tab-bordered.mx-tabcontainer .mx-tabcontainer-content {
   background-color: rgba(45, 45, 45, 0.36);
 }
@@ -434,6 +621,51 @@ table.table-label-compact.mx-table > tbody > tr > td .mx-referenceselector-input
    Default Mendix Templategrid Widget. The template grid shows a list of objects in a tile view. For example, a template grid can show a list of products. The template grid has a lot in common with the data grid. The main difference is that the objects are shown in templates (a sort of small data view) instead of rows
 ========================================================================== */
 .mx-templategrid {
+  /* Styles here */
+}
+
+.templategrid-hover.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-hover.mx-templategrid .mx-templategrid-item {
+  /* Styles here */
+}
+
+.templategrid-selectable.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-selectable.mx-templategrid .mx-templategrid-item {
+  /* Styles here */
+}
+
+.templategrid-lined.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-lined.mx-templategrid .mx-grid-content {
+  /* Styles here */
+}
+.templategrid-lined.mx-templategrid .mx-templategrid-item {
+  /* Styles here */
+}
+
+.templategrid-striped.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-striped.mx-templategrid .mx-templategrid-row:nth-child(odd) .mx-templategrid-item {
+  /* Styles here */
+}
+
+.templategrid-stylingless.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-stylingless.mx-templategrid .mx-templategrid-item {
+  /* Styles here */
+}
+
+.templategrid-transparent.mx-templategrid {
+  /* Styles here */
+}
+.templategrid-transparent.mx-templategrid .mx-templategrid-item {
   /* Styles here */
 }
 
@@ -1055,6 +1287,10 @@ body[dir="ltr"] .mx-header {
   color: #fff;
 }
 
+.sectionheader-avatar {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Profile Card
 ========================================================================== */
@@ -1103,8 +1339,15 @@ body[dir="ltr"] .mx-header {
 /*
 * Profile Header
 *
-* 
+*
 */
+.profileheader {
+  /* Styles here */
+}
+.profileheader .profileheader-content {
+  /* Styles here */
+}
+
 /* ==========================================================================
    Products
 
