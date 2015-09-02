@@ -703,10 +703,16 @@ h1, h2, h3, h4, h5, h6,
   /* Styles here */
 }
 
-.region-sidebar {
+.region-sidebar,
+.region-sidebar-fixed {
   /* Styles here */
 }
-.region-sidebar > .mx-layoutcontainer-wrapper {
+.region-sidebar.mx-scrollcontainer-toggleable,
+.region-sidebar-fixed.mx-scrollcontainer-toggleable {
+  background-color: #3D3F41;
+}
+.region-sidebar > .mx-layoutcontainer-wrapper,
+.region-sidebar-fixed > .mx-layoutcontainer-wrapper {
   /* Styles here */
 }
 
@@ -738,7 +744,7 @@ h1, h2, h3, h4, h5, h6,
    Used to style your app brand and logo
 ========================================================================== */
 .navbar-brand {
-  padding: 31px 45px;
+  padding: 28px 45px;
   margin-left: -22px;
 }
 .navbar-brand img {
