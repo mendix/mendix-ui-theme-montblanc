@@ -146,7 +146,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  color: #000;
+  color: #FFF;
   font-size: 14px;
   line-height: 1.42857;
   background-color: transparent;
@@ -565,29 +565,29 @@ textarea.form-control, textarea.readonly-input {
 }
 
 .btn-primary, .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.multilevel-grid .mx-grid-search-button {
-  border-color: #ffcb00;
-  background-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   color: #FFF;
 }
 .btn-primary:hover, .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.multilevel-grid .mx-grid-search-button:hover, .btn-primary:focus, .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.multilevel-grid .mx-grid-search-button:focus, .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
-  border-color: #cca200;
-  background-color: #cca200;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(230, 230, 230, 0.5);
   color: #FFF;
 }
 .btn-primary:active, .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.multilevel-grid .mx-grid-search-button:active, .btn-primary.active, .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.multilevel-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .dropdown-toggle.mx-grid-search-button {
   background-image: none;
 }
 .btn-primary.disabled, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.mx-grid-search-button, .btn-primary.disabled:hover, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:hover, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:hover, .btn-primary.disabled:focus, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:focus, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:focus, .btn-primary.disabled:active, .mx-grid.datagrid-fullsearch .disabled.mx-grid-search-button:active, .mx-grid.multilevel-grid .disabled.mx-grid-search-button:active, .btn-primary.disabled.active, .mx-grid.datagrid-fullsearch .disabled.active.mx-grid-search-button, .mx-grid.multilevel-grid .disabled.active.mx-grid-search-button, .btn-primary[disabled], .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button, .mx-grid.multilevel-grid [disabled].mx-grid-search-button, .btn-primary[disabled]:hover, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:hover, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:hover, .btn-primary[disabled]:focus, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:focus, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:focus, .btn-primary[disabled]:active, .mx-grid.datagrid-fullsearch [disabled].mx-grid-search-button:active, .mx-grid.multilevel-grid [disabled].mx-grid-search-button:active, .btn-primary[disabled].active, .mx-grid.datagrid-fullsearch [disabled].active.mx-grid-search-button, .mx-grid.multilevel-grid [disabled].active.mx-grid-search-button, fieldset[disabled] .btn-primary, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:hover, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:hover, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:focus, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:focus, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .mx-grid.datagrid-fullsearch .mx-grid-search-button:active, .mx-grid.datagrid-fullsearch fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .mx-grid.multilevel-grid .mx-grid-search-button:active, .mx-grid.multilevel-grid fieldset[disabled] .mx-grid-search-button:active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .mx-grid.datagrid-fullsearch .active.mx-grid-search-button, .mx-grid.datagrid-fullsearch fieldset[disabled] .active.mx-grid-search-button, fieldset[disabled] .mx-grid.multilevel-grid .active.mx-grid-search-button, .mx-grid.multilevel-grid fieldset[disabled] .active.mx-grid-search-button {
-  border-color: #ffcb00;
-  background-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .btn-primary.btn-bordered, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button {
   background-color: transparent;
-  color: #ffcb00;
+  color: rgba(0, 0, 0, 0.2);
 }
 .btn-primary.btn-bordered:hover, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:hover, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:hover, .btn-primary.btn-bordered:focus, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:focus, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:focus, .btn-primary.btn-bordered:active, .mx-grid.datagrid-fullsearch .btn-bordered.mx-grid-search-button:active, .mx-grid.multilevel-grid .btn-bordered.mx-grid-search-button:active, .btn-primary.btn-bordered.active, .mx-grid.datagrid-fullsearch .btn-bordered.active.mx-grid-search-button, .mx-grid.multilevel-grid .btn-bordered.active.mx-grid-search-button, .open > .btn-primary.btn-bordered.dropdown-toggle, .mx-grid.datagrid-fullsearch .open > .btn-bordered.dropdown-toggle.mx-grid-search-button, .mx-grid.multilevel-grid .open > .btn-bordered.dropdown-toggle.mx-grid-search-button {
-  background-color: #ffcb00;
-  border-color: #ffcb00;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(0, 0, 0, 0.2);
   color: #FFF;
 }
 
@@ -938,7 +938,7 @@ textarea.form-control, textarea.readonly-input {
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
   padding: 8px 8px 8px 8px;
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
   border-width: 0;
   border-top-width: 1px;
   border-top-style: solid;
@@ -952,7 +952,7 @@ textarea.form-control, textarea.readonly-input {
   text-overflow: ellipsis;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: #fcfcfc !important;
+  background-color: rgba(87, 87, 87, 0.15) !important;
   color: #fff;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > th {
@@ -961,7 +961,7 @@ textarea.form-control, textarea.readonly-input {
   border-width: 0;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > td {
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
   border-width: 0;
 }
 .mx-datagrid .mx-datagrid-body-table *:focus {
@@ -983,7 +983,7 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
 }
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: #eaeaea;
+  background-color: rgba(0, 0, 0, 0.17);
 }
 
 /* ==========================================================================
@@ -1016,10 +1016,10 @@ textarea.form-control, textarea.readonly-input {
    Default Mendix Datagrid Widget with hover
 ========================================================================== */
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr:hover td {
-  background-color: #f7f7f7 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: #f7eec6 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 
 /* ==========================================================================
@@ -1104,7 +1104,7 @@ textarea.form-control, textarea.readonly-input {
 }
 .mx-dataview .mx-dataview-message {
   background: transparent;
-  color: #000;
+  color: #FFF;
 }
 
 /*
@@ -1137,7 +1137,7 @@ textarea.form-control, textarea.readonly-input {
   text-align: center;
 }
 .dijitCalendarContainer tr td .dijitCalendarDateLabel {
-  color: #000;
+  color: #FFF;
 }
 .dijitCalendarContainer tr tfoot h3 {
   margin: 0;
@@ -1382,12 +1382,12 @@ textarea.form-control, textarea.readonly-input {
   font-weight: bold;
   border-radius: 0;
   margin: 0;
-  background: #DDD;
-  color: #b7b7b7;
+  background: rgba(0, 0, 0, 0.19);
+  color: #d9d9d9;
   font-size: 16px;
   border-style: solid;
   border-width: 1px 1px 0 1px;
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox > .mx-groupbox-header .mx-groupbox-collapse-icon {
   margin-top: 0.1em;
@@ -1395,7 +1395,7 @@ textarea.form-control, textarea.readonly-input {
 .mx-groupbox > .mx-groupbox-body {
   border-radius: 0;
   padding: 10px 15px;
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
   background-color: #FFF;
   border-style: solid;
   border-width: 1px;
@@ -1476,68 +1476,68 @@ textarea.form-control, textarea.readonly-input {
    Groupbox Colors
 ========================================================================== */
 .mx-groupbox.groupbox-default > .mx-groupbox-header {
-  background: #DDD;
-  color: #b7b7b7;
-  border-color: #DDD;
+  background: rgba(0, 0, 0, 0.19);
+  color: #d9d9d9;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-default > .mx-groupbox-body {
-  border-color: #DDD;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-header {
-  background: #ffcb00;
+  background: rgba(0, 0, 0, 0.19);
   color: #b38e00;
-  border-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-primary > .mx-groupbox-body {
-  border-color: #ffcb00;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-inverse > .mx-groupbox-header {
-  background: #3D3F41;
+  background: rgba(0, 0, 0, 0.19);
   color: #18191a;
-  border-color: #3D3F41;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-inverse > .mx-groupbox-body {
-  border-color: #3D3F41;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-success > .mx-groupbox-header {
-  background: #8CC152;
+  background: rgba(0, 0, 0, 0.19);
   color: #659234;
-  border-color: #8CC152;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-success > .mx-groupbox-body {
-  border-color: #8CC152;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-info > .mx-groupbox-header {
-  background: #8AD4ED;
+  background: rgba(0, 0, 0, 0.19);
   color: #48bce3;
-  border-color: #8AD4ED;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-info > .mx-groupbox-body {
-  border-color: #8AD4ED;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-warning > .mx-groupbox-header {
-  background: #F6BB42;
+  background: rgba(0, 0, 0, 0.19);
   color: #e19b0b;
-  border-color: #F6BB42;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-warning > .mx-groupbox-body {
-  border-color: #F6BB42;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-danger > .mx-groupbox-header {
-  background: #D9534F;
+  background: rgba(0, 0, 0, 0.19);
   color: #b52b27;
-  border-color: #D9534F;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-danger > .mx-groupbox-body {
-  border-color: #D9534F;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-header {
-  background: #FFF;
+  background: rgba(0, 0, 0, 0.19);
   color: #d9d9d9;
-  border-color: #FFF;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-white > .mx-groupbox-body {
-  border-color: #FFF;
+  border-color: rgba(0, 0, 0, 0.19);
 }
 .mx-groupbox.groupbox-transparent {
   background-color: transparent;
@@ -1600,28 +1600,28 @@ textarea.form-control, textarea.readonly-input {
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-body {
-  background-color: #e8f6fb;
+  background-color: #48bce3;
 }
 .mx-groupbox.groupbox-callout-info > .mx-groupbox-header {
   color: #8AD4ED;
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-body {
-  background-color: #e8f3dc;
+  background-color: #659234;
 }
 .mx-groupbox.groupbox-callout-success > .mx-groupbox-header {
   color: #8CC152;
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-body {
-  background-color: #fdf1d9;
+  background-color: #e19b0b;
 }
 .mx-groupbox.groupbox-callout-warning > .mx-groupbox-header {
   color: #F6BB42;
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header,
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-body {
-  background-color: #f7dddc;
+  background-color: #b52b27;
 }
 .mx-groupbox.groupbox-callout-danger > .mx-groupbox-header {
   color: #D9534F;
@@ -1809,9 +1809,6 @@ img.img-auto,
 .mx-listview .mx-button.mx-listview-clear-button {
   width: auto;
 }
-.mx-listview .mx-listview-content {
-  display: block;
-}
 .mx-listview > .mx-button {
   width: 100%;
   margin: 10px auto;
@@ -1820,20 +1817,20 @@ img.img-auto,
   margin: 0;
 }
 .mx-listview .mx-listview-item {
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
   padding: 10px 0;
 }
 .mx-listview .mx-listview-item:hover {
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
 }
 .mx-listview .mx-listview-item.selected {
-  background-color: #fcfcfc !important;
+  background-color: rgba(87, 87, 87, 0.15) !important;
 }
 .mx-listview .mx-listview-item.selected:hover {
-  background-color: #f7eec6 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 .mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
 }
 .mx-listview .mx-layoutgrid {
   padding-top: 0 !important;
@@ -1846,7 +1843,7 @@ img.img-auto,
    Default Mendix Listview Widget with hover
 ========================================================================== */
 .listview-hover.mx-listview .mx-listview-item:hover, .mx-listview.multilevel-list .mx-listview-item:hover, .listview-hover.mx-listview .mx-listview-item:active, .mx-listview.multilevel-list .mx-listview-item:active {
-  background-color: #f7f7f7 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 
 /* ==========================================================================
@@ -1873,7 +1870,7 @@ img.img-auto,
    Default Mendix Listview Widget with striped listview items
 ========================================================================== */
 .listview-striped.mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: #eaeaea;
+  background-color: rgba(0, 0, 0, 0.17);
 }
 
 /* ==========================================================================
@@ -2167,7 +2164,7 @@ img.img-auto,
 }
 .mx-navigationtree .navbar-inner ul li a .glyphicon {
   vertical-align: middle;
-  font-size: 1.2em;
+  font-size: 1em;
   top: -1px;
 }
 .mx-navigationtree .navbar-inner ul li a:hover,
@@ -2272,7 +2269,7 @@ img.img-auto,
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a .glyphicon {
   vertical-align: middle;
-  font-size: 1.2em;
+  font-size: 1em;
   top: -1px;
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item a:hover,
@@ -2392,7 +2389,7 @@ img.img-auto,
   color: #FFF;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-  background-color: #eaeaea;
+  background-color: #e2e2e2;
 }
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
@@ -2418,7 +2415,7 @@ img.img-auto,
   color: #FFF;
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
-  background-color: #eaeaea;
+  background-color: #e2e2e2;
 }
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a,
 .tab-pills.mx-tabcontainer .mx-tabcontainer-tabs > li.active > a:hover,
@@ -2711,7 +2708,7 @@ table.table-fixed {
   display: none;
 }
 .mx-templategrid .mx-templategrid-item {
-  background-color: #FFF;
+  background-color: rgba(228, 228, 228, 0.17);
   padding: 8px 8px 8px 8px;
   cursor: default;
 }
@@ -2719,7 +2716,7 @@ table.table-fixed {
   background-color: transparent;
 }
 .mx-templategrid .mx-templategrid-item.selected {
-  background-color: #fcfcfc !important;
+  background-color: rgba(87, 87, 87, 0.15) !important;
 }
 .mx-templategrid .mx-layoutgrid {
   padding-top: 0 !important;
@@ -2732,13 +2729,13 @@ table.table-fixed {
    Default Mendix Templategrid Widget Hover
 ========================================================================== */
 .templategrid-hover.mx-templategrid .mx-templategrid-item:hover {
-  background-color: #f7f7f7 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected {
-  background-color: #fcfcfc !important;
+  background-color: rgba(87, 87, 87, 0.15) !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected:hover {
-  background-color: #f7eec6 !important;
+  background-color: rgba(87, 87, 87, 0.45) !important;
 }
 
 /* ==========================================================================
@@ -2820,7 +2817,7 @@ label {
 
 .mx-title {
   font-weight: 100;
-  color: #000;
+  color: #FFF;
   font-size: 31px;
 }
 
@@ -2851,7 +2848,7 @@ h6, .h6, .h6 > * {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 100;
-  color: #000;
+  color: #FFF;
   line-height: 1.3;
 }
 
@@ -3232,8 +3229,11 @@ h1, h2, h3, h4, h5, h6,
 .masterdetail-listview .mx-listview .mx-listview-item.selected {
   color: #FFF;
 }
+.masterdetail-listview .mx-listview .mx-listview-item.selected .mx-link {
+  color: #FFF;
+}
 .masterdetail-listview .mx-listview .mx-listview-item.selected:hover, .masterdetail-listview .mx-listview .mx-listview-item.selected:active {
-  background-color: #fcfcfc !important;
+  background-color: rgba(87, 87, 87, 0.15) !important;
 }
 
 /* ==========================================================================

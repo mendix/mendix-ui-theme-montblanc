@@ -2,31 +2,31 @@
    Inputs
 ========================================================================== */
 .form-control {
-	color: #fff;
+			/* Styles here */
 }
 textarea.form-control {
-	
+		/* Styles here */
 }
 .form-control:focus {
 	/* Styles here */
 }
 // Not editable textarea, textarea will be rendered as a label
 .mx-textarea label {
-	
+		/* Styles here */
 }
 // Input and textarea get properly aligned
 .form-group div[class*='textBox'] > label,
 .form-group div[class*='textArea'] > label {
-	
+			/* Styles here */
 }
 // Inputs Readonly
 .readonly-input {
-	label { 
-		
+	label {
+			/* Styles here */
 	}
 }
 .readonly-input-alert label {
-	
+		/* Styles here */
 }
 .disabled-form p {
 	background-color: rgba(115, 115, 115, 0.54) !important;

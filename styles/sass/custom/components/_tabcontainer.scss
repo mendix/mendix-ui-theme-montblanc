@@ -1,7 +1,7 @@
 /* ==========================================================================
    Tab Container
 
-   Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages. 
+   Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages.
    This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
 ========================================================================== */
 .mx-tabcontainer {
@@ -12,17 +12,14 @@
 			/* Styles here */
 			&:hover,
 			&:focus {
-				background-color: rgba(234, 234, 234, 0.25);
+
 			}
 		}
 
 		> li.active > a,
 		> li.active > a:hover,
 		> li.active > a:focus  {
-			border: 1px solid rgba(221, 221, 221, 0.25);
-			border-bottom-color: transparent;
-			background-color: rgba(129, 129, 129, 0.78);
-			color: $color-text-white;
+
 		}
 	}
 	.mx-tabcontainer-content {
@@ -43,16 +40,14 @@
 			/* Styles here */
 			&:hover,
 			&:focus {
-				background-color: rgba(234, 234, 234, 0.25);
+
 			}
 		}
 
 		> li.active > a,
 		> li.active > a:hover,
 		> li.active > a:focus  {
-			border: 1px solid rgba(221, 221, 221, 0.25);
-			border-bottom-color: transparent;
-			background-color: rgba(129, 129, 129, 0.78);
+
 
 		}
 	}
@@ -66,14 +61,13 @@
 //==========================================================================
 .tab-lined.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
-
+		/* Styles here */
         li {
 
             > a {
                 &:hover,
                 &:focus {
-					border-bottom-color: transparent;
-					border-bottom: 3px solid rgba(138, 138, 138, 0.98);;
+
                 }
 
             }
@@ -81,8 +75,7 @@
             &.active > a,
             &.active > a:hover,
             &.active > a:focus  {
-				border-bottom-color: transparent;
-				border-bottom: 3px solid rgba(138, 138, 138, 0.98);
+
             }
         }
     }
@@ -96,14 +89,14 @@
 //==========================================================================
 .tab-justified.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
-
+		/* Styles here */
 		> li {
 
 			@media (max-width: 768px) {
 
 			}
 			> a {
-				color: white;
+
 			}
 
 		}
@@ -126,16 +119,12 @@
 // Default Mendix Tab Container Widget rendered with borders
 //==========================================================================
 .tab-bordered.mx-tabcontainer {
-
+		/* Styles here */
 	.mx-tabcontainer-tabs {
-		
+
 	}
 
 	.mx-tabcontainer-content {
-		padding: 10px;
-		border-width: 0 1px 1px 1px;
-		border-style: solid;
-		border-color: rgba(255, 255, 255, 0.72);
 		background-color: rgba(45, 45, 45, 0.36);
 	}
 }

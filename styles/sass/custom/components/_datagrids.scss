@@ -4,11 +4,11 @@
    Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
 ========================================================================== */
 .mx-datagrid {
+		font-weight: 100;
 	.mx-datagrid-head-table {
-		color: $color-text-white;
-		background-color: rgba(228, 228, 228, 0.17);
+
 		th {
-			background-color: transparent;
+
 			border-top-width: 1px;
 			border-top-style: solid;
 			font-weight: 100;
@@ -23,28 +23,28 @@
 	.mx-datagrid-body-table {
 		/* Table body */
 		.mx-datagrid-body tr {
+
+			background-color: rgba(0, 0, 0, 0.17);
+
 			td {
-				padding: 15px 8px 15px 8px;
-			  	background-color: rgba(216, 216, 216, 0.44);
-			  	border-width: 0;
-			  	border-top-width: 1px;
-			  	border-top-style: solid;
-			  	border-color: rgba(87, 87, 87, 0.45);
-			  	color: $color-text-white;
+
 				&:focus {
-					border-color: rgba(87, 87, 87, 0.45) !important;
 				}
 				/* Text without spaces */
 				.mx-datagrid-data-wrapper {
 
 				}
 			}
+			//Added own selector to complement Bootstrap's grids.
+			&:nth-child(odd) td {
+				background-color: rgba(228, 228, 228, 0.17); //remove when variable has been added to custom file.
+			}
 			&:hover td {
 
 			}
 			&.selected td,
 			&.selected:hover td {
-		    	background-color:rgba(122, 122, 122, 0.35) !important;
+
 			}
 		}
 
@@ -58,7 +58,7 @@
 			}
 		}
 		& *:focus {
-			background-color: rgba(255, 255, 255, 0.1) !important;
+
 		}
 	}
 }
@@ -85,17 +85,10 @@
 
 			}
 			&:nth-child(odd) td {
-				padding: 15px 8px 15px 8px;
-				background-color: rgba(0, 0, 0, 0.44);
-				border-width: 0;
-				border-top-width: 1px;
-				border-top-style: solid;
-				border-color: rgba(87, 87, 87, 0.45);
 			}
 		}
 	}
 	> tbody > tr:nth-of-type(odd) {
-	 	background-color: rgba(181, 181, 181, 0.42);
 	}
 }
 
@@ -107,7 +100,8 @@
 // ==========================================================================
 .datagrid-bordered.mx-datagrid {
 	.mx-datagrid-head-table {
-		th { 
+			/* Styles here */
+		th {
 
 		}
 		.mx-datagrid-head-wrapper {
@@ -115,18 +109,20 @@
 		}
 	}
 	.mx-datagrid-body-table {
+			/* Styles here */
 		.mx-datagrid-body tr {
 			td {
-				
+
 			}
 		}
 	}
 	.mx-datagrid-foot {
+			/* Styles here */
 		> tr > th {
 
 		}
 		> tr > td {
-			
+
 		}
 	}
 }
@@ -138,13 +134,12 @@
 //   Default Mendix Datagrid Widget with hover
 // ==========================================================================
 .datagrid-hover.mx-datagrid {
+			/* Styles here */
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:hover td {
-				background-color: rgba(87, 87, 87, 0.45)!important;
 			}
 			&.selected:hover td {
-				background-color: rgba(87, 87, 87, 0.45)!important;
 			}
 		}
 	}
@@ -157,15 +152,16 @@
 // Default Mendix Datagrid Widget with large rows
 // ==========================================================================
 .datagrid-large.mx-datagrid {
+			/* Styles here */
 	.mx-datagrid-head-table {
 		.mx-datagrid-head-wrapper {
-			
+
 		}
 	}
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			td {
-				
+
 			}
 		}
 	}
@@ -178,13 +174,14 @@
 // Default Mendix Datagrid Widget with transparent background for row and cells
 // ==========================================================================
 .datagrid-transparent.mx-datagrid {
+		/* Styles here */
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:nth-of-type(odd) {
-			
+
 			}
 			td {
-			
+
 			}
 		}
 	}
@@ -197,17 +194,18 @@
 // Default Mendix Datagrid Widget with adjusted search field. Only 1 search field is allowed
 // ==========================================================================
 .datagrid-fullsearch.mx-datagrid {
+		/* Styles here */
 	.mx-grid-search-button {
-		
+
 	}
 	.mx-grid-reset-button {
-		
+
 	}
 	.mx-grid-search-item {
-		
+
 	}
 	.mx-grid-search-label {
-		
+
 	}
 	.mx-grid-searchbar .mx-grid-search-input {
 		.form-control {

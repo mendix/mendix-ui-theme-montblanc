@@ -31,13 +31,13 @@
 	&.mx-window-view .mx-window-body {
 
 		// Dataview in popup
-		> .mx-dataview > .mx-dataview-content, 
+		> .mx-dataview > .mx-dataview-content,
 		> .mx-placeholder > .mx-dataview > .mx-dataview-content {
-
+		/* Styles here */
 		}
-		> .mx-dataview > .mx-dataview-controls, 
+		> .mx-dataview > .mx-dataview-controls,
 		> .mx-placeholder > .mx-dataview > .mx-dataview-controls {
-
+		/* Styles here */
 		}
 	}
 }
@@ -52,9 +52,8 @@
 	.modal-content {
 		/* Styles here */
 		input {
-
 			&:focus {
-
+				/* Styles here */
 			}
 		}
 	}

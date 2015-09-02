@@ -6,17 +6,10 @@
 .mx-templategrid {
 	/* Styles here */
 	.mx-templategrid-item {
-		border:none;
-		padding: 8px 8px 8px 8px;
-		cursor: default;
-		background-color:rgba(44, 44, 44, 0.49);
 		&:hover {
-			background-color: rgba(255, 255, 255, 0.22)!important;
 		}
 		&.selected {
-			background-color:rgba(255, 255, 255, 0.37) !important;
 			&:hover {
-				background-color: rgba(255, 255, 255, 0.22)!important;
 			}
 		}
 	}
@@ -29,9 +22,11 @@
 // Default Mendix Templategrid Widget Hover
 // ==========================================================================
 .templategrid-hover.mx-templategrid {
+			/* Styles here */
 	.mx-templategrid-item {
+				/* Styles here */
 		&:hover {
-			
+
 		}
 	}
 }
@@ -43,8 +38,9 @@
 // Default Mendix Templategrid Widget with selection enabled
 // ==========================================================================
 .templategrid-selectable.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-		
+		/* Styles here */
 	}
 }
 
@@ -55,18 +51,12 @@
 // Default Mendix Templategrid Widget with borders between items
 // ==========================================================================
 .templategrid-lined.mx-templategrid {
+		/* Styles here */
 	.mx-grid-content {
-
+		/* Styles here */
 	}
 	.mx-templategrid-item {
-		color: #B2B3B3;
-		background-color: rgba(0, 0, 0, 0.22);
-		padding: 8px 8px 8px 8px;
-		cursor: default;
-		border-left: none;
-		border-right: none;
-		border-top: 1px solid rgba(221, 221, 221, 0.17);
-		border-bottom: 1px solid rgba(221, 221, 221, 0.24);
+	  /* Styles here */
 	}
 }
 
@@ -78,8 +68,9 @@
 // Default Mendix Templategrid Widget with background between items
 // ==========================================================================
 .templategrid-striped.mx-templategrid {
+			/* Styles here */
 	.mx-templategrid-row:nth-child(odd) .mx-templategrid-item {
-		background-color: rgba(27, 27, 27, 0.3);
+			/* Styles here */
 	}
 }
 
@@ -90,8 +81,9 @@
 // Default Mendix Templategrid Widget without styling
 // ==========================================================================
 .templategrid-stylingless.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-
+		/* Styles here */
 
 		&:hover {
 
@@ -112,7 +104,8 @@
 //  Default Mendix Templategrid Widget without background and padding in items
 // ==========================================================================
 .templategrid-transparent.mx-templategrid {
+		/* Styles here */
 	.mx-templategrid-item {
-
+		/* Styles here */
 	}
 }
