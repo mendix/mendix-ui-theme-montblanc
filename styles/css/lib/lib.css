@@ -1137,7 +1137,7 @@ textarea.form-control, textarea.readonly-input {
   text-align: center;
 }
 .dijitCalendarContainer tr td .dijitCalendarDateLabel {
-  color: #FFF;
+  color: #000;
 }
 .dijitCalendarContainer tr tfoot h3 {
   margin: 0;
@@ -1157,7 +1157,10 @@ textarea.form-control, textarea.readonly-input {
 .dijitCalendarContainer .dijitCalendarSelectedDate:hover {
   border-radius: 10px;
   background: #ffcb00;
-  color: #FFF;
+}
+.dijitCalendarContainer .dijitCalendarSelectedDate .dijitCalendarDateLabel,
+.dijitCalendarContainer .dijitCalendarSelectedDate:hover .dijitCalendarDateLabel {
+  color: #fff;
 }
 .dijitCalendarContainer .dijitCalendarHoveredDate,
 .dijitCalendarContainer .dijitCalendarPreviousYearHover,
