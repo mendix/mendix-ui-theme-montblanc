@@ -490,7 +490,7 @@ textarea.form-control {
    Default Mendix Simple Menu Bar
 ========================================================================== */
 .mx-menubar {
-  /* Styles here */
+  background-color: #3D3F41;
 }
 .mx-menubar ul.mx-menubar-list {
   /* Styles here */
@@ -820,6 +820,20 @@ body[dir="ltr"] .mx-header {
 .profile-tablet .mx-tabcontainer-tabs {
   border-color: transparent;
   background-color: rgba(0, 0, 0, 0.38);
+}
+.profile-phone .mx-tabcontainer-tabs li a,
+.profile-tablet .mx-tabcontainer-tabs li a {
+  color: #FFF;
+}
+.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
+.profile-tablet .mx-tabcontainer-tabs li a:hover,
+.profile-tablet .mx-tabcontainer-tabs li a:focus,
+.profile-tablet .mx-tabcontainer-tabs li a.active {
+  color: #ffcb00 !important;
+}
+.profile-phone .mx-tabcontainer-tabs li.active a,
+.profile-tablet .mx-tabcontainer-tabs li.active a {
+  color: #ffcb00;
 }
 
 /* ==========================================================================
@@ -1180,7 +1194,7 @@ body[dir="ltr"] .mx-header {
 }
 
 .dashboardstat-number {
-  /* Styles here */
+  color: #FFF;
 }
 
 /* ==========================================================================
@@ -1442,26 +1456,19 @@ body[dir="ltr"] .mx-header {
 }
 
 .wizard-step {
-  padding: 0;
-  background-color: rgba(71, 84, 105, 0.81);
-  border: none;
-  color: #FFF;
-}
-
-.wizard-step-number {
   /* Styles here */
 }
 
-.wizard-step-number-active {
+.wizard-step-number {
   padding: 0;
-  background-color: rgba(71, 84, 105, 0.81);
-  border: none;
+}
+
+.wizard-step-number-active {
+  /* Styles here */
 }
 
 .wizard-step-number-visited {
-  padding: 0;
-  background-color: #ffcb00;
-  border: none;
+  /* Styles here */
 }
 
 .wizard-step-title {

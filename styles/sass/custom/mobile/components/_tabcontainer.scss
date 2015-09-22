@@ -17,24 +17,24 @@
 
 		li {
 			a {
-
+				color: #FFF;
 				&:hover,
 				&:focus,
 				&.active {
-
+					color: $color-primary !important;
 				}
 			}
 			&.active a {
-
+				color: $color-primary;
   				&:after,
   				&:before {
-
+  					
   				}
   				&:after {
-
+  					
   				}
   				&:before {
-
+  					
   				}
 			}
 		}
