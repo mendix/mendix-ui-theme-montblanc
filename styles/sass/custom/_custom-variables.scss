@@ -78,9 +78,9 @@ $default-spacing-right:					25px;
 $default-spacing-left:					25px;
 
 // $m-default-spacing-top:				10px;
-$m-default-spacing-right:				0;
+$m-default-spacing-right:				15px;
 // $m-default-spacing-bottom:			10px;
-$m-default-spacing-left:				0;
+$m-default-spacing-left:				15px;
 
 // $t-default-spacing-top:				20px;
 $t-default-spacing-right:				15px;
@@ -250,7 +250,7 @@ $color-btn-text-primary: 			#FFF;
 // Border Color
 // $color-btn-border-default: 			$color-default;
 // $color-btn-border-inverse: 			$color-inverse;
-$color-btn-border-primary: 			rgba(0, 0, 0, 0.2);
+$color-btn-border-primary: 				rgba(0, 0, 0, 0.2);
 // $color-btn-border-info: 				$color-info;
 // $color-btn-border-success: 			$color-success;
 // $color-btn-border-warning: 			$color-warning;
@@ -288,15 +288,15 @@ $color-dataview-controls-border: 		$gray-primary;
 $color-grid-border:						$gray-primary;
 
 // Background Color
-$color-grid-bg:						rgba(228, 228, 228, 0.17);
+$color-grid-bg:							rgba(228, 228, 228, 0.17);
 $color-grid-bg-header:					transparent; // Grid Headers
 $color-grid-bg-hover:					rgba(87, 87, 87, 0.45);
-$color-grid-bg-selected:				rgba(87, 87, 87, 0.15) ;//#F9F9D1;
-$color-grid-bg-selected-hover: 			rgba(87, 87, 87, 0.45);
-$color-grid-text-selected:				#fff;
+$color-grid-bg-selected:				$color-primary;
+$color-grid-bg-selected-hover: 			$color-primary;
+$color-grid-text-selected:				$color-inverse;
 
 // Striped
-$color-grid-bg-striped:				rgba(0, 0, 0, 0.17);
+$color-grid-bg-striped:					rgba(0, 0, 0, 0.69);
 
 // Footer
 // $color-grid-footer-bg:				$gray-primary;
@@ -310,8 +310,8 @@ $color-grid-bg-striped:				rgba(0, 0, 0, 0.17);
 // Background Color
 $color-groupbox-default:				rgba(0, 0, 0, 0.19);
 $color-groupbox-inverse:				$color-groupbox-default;
-$color-groupbox-primary:			$color-groupbox-default;
-$color-groupbox-info:				$color-groupbox-default;
+$color-groupbox-primary:				$color-groupbox-default;
+$color-groupbox-info:					$color-groupbox-default;
 $color-groupbox-success:				$color-groupbox-default;
 $color-groupbox-warning:				$color-groupbox-default;
 $color-groupbox-danger:		$color-groupbox-default;
@@ -438,9 +438,9 @@ $color-navtopbar-border:				none;
 //##
 
 // Text Color
-$color-tab-text-active:				$color-text-black;
+$color-tab-text-active:					$color-text-black;
 $color-tab-text: 						$color-text-white;
-$color-tab-lined-text-active:		$color-primary;
+$color-tab-lined-text-active:			$color-primary;
 
 // Border Color
 $color-tab-border:						$gray-primary;
@@ -448,7 +448,7 @@ $color-tab-lined-border:				$color-primary;
 
 // Background Color
 $color-tab-bg-hover:					lighten($color-tab-border,2);
-$color-tab-bg-active:				$color-primary;
+$color-tab-bg-active:					$color-primary;
 
 
 

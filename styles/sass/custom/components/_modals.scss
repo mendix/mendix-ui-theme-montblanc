@@ -24,6 +24,12 @@
 	}
 }
 
+.mx-tooltip {
+	.dijitTooltipContainer {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+}
+
 
 /* Default Mendix Window Modal */
 .mx-window {

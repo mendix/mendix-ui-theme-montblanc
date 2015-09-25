@@ -47,7 +47,7 @@
 }
 @media (max-width: 767px) {
   .mx-layoutcontainer .mx-placeholder .mx-layoutgrid {
-    padding: 10px 0 10px 0;
+    padding: 10px 15px 10px 15px;
   }
 }
 @media (min-width: 768px) {
@@ -952,8 +952,8 @@ textarea.form-control, textarea.readonly-input {
   text-overflow: ellipsis;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: rgba(87, 87, 87, 0.15) !important;
-  color: #fff;
+  background-color: #ffcb00 !important;
+  color: #3D3F41;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > th {
   padding: 1px;
@@ -983,7 +983,7 @@ textarea.form-control, textarea.readonly-input {
   border-top-width: 0;
 }
 .datagrid-striped.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:nth-child(odd) td {
-  background-color: rgba(0, 0, 0, 0.17);
+  background-color: rgba(0, 0, 0, 0.69);
 }
 
 /* ==========================================================================
@@ -1019,7 +1019,7 @@ textarea.form-control, textarea.readonly-input {
   background-color: rgba(87, 87, 87, 0.45) !important;
 }
 .datagrid-hover.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td, .mx-datagrid.multilevel-grid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
-  background-color: rgba(87, 87, 87, 0.45) !important;
+  background-color: #ffcb00 !important;
 }
 
 /* ==========================================================================
@@ -1831,10 +1831,10 @@ img.img-auto,
   background-color: rgba(228, 228, 228, 0.17);
 }
 .mx-listview .mx-listview-item.selected {
-  background-color: rgba(87, 87, 87, 0.15) !important;
+  background-color: #ffcb00 !important;
 }
 .mx-listview .mx-listview-item.selected:hover {
-  background-color: rgba(87, 87, 87, 0.45) !important;
+  background-color: #ffcb00 !important;
 }
 .mx-listview .mx-listview-item:nth-child(2n+1) {
   background-color: rgba(228, 228, 228, 0.17);
@@ -1877,7 +1877,7 @@ img.img-auto,
    Default Mendix Listview Widget with striped listview items
 ========================================================================== */
 .listview-striped.mx-listview .mx-listview-item:nth-child(2n+1) {
-  background-color: rgba(0, 0, 0, 0.17);
+  background-color: rgba(0, 0, 0, 0.69);
 }
 
 /* ==========================================================================
@@ -2723,7 +2723,7 @@ table.table-fixed {
   background-color: transparent;
 }
 .mx-templategrid .mx-templategrid-item.selected {
-  background-color: rgba(87, 87, 87, 0.15) !important;
+  background-color: #ffcb00 !important;
 }
 .mx-templategrid .mx-layoutgrid {
   padding-top: 0 !important;
@@ -2739,10 +2739,10 @@ table.table-fixed {
   background-color: rgba(87, 87, 87, 0.45) !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected {
-  background-color: rgba(87, 87, 87, 0.15) !important;
+  background-color: #ffcb00 !important;
 }
 .templategrid-hover.mx-templategrid .mx-templategrid-item.selected:hover {
-  background-color: rgba(87, 87, 87, 0.45) !important;
+  background-color: #ffcb00 !important;
 }
 
 /* ==========================================================================
@@ -3262,7 +3262,7 @@ h1, h2, h3, h4, h5, h6,
   color: #FFF;
 }
 .masterdetail-listview .mx-listview .mx-listview-item.selected:hover, .masterdetail-listview .mx-listview .mx-listview-item.selected:active {
-  background-color: rgba(87, 87, 87, 0.15) !important;
+  background-color: #ffcb00 !important;
 }
 
 /* ==========================================================================

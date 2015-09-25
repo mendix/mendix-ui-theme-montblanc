@@ -67,15 +67,15 @@
             > a {
                 &:hover,
                 &:focus {
-
+                	color: $color-primary;
                 }
 
             }
 
             &.active > a,
             &.active > a:hover,
-            &.active > a:focus  {
-
+            &.active > a:focus {
+            	color: $color-primary;
             }
         }
     }

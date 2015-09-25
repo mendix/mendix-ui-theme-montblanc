@@ -4,11 +4,9 @@
    Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
 ========================================================================== */
 .mx-datagrid {
-		font-weight: 100;
+	font-weight: 100;
 	.mx-datagrid-head-table {
-
 		th {
-
 			border-top-width: 1px;
 			border-top-style: solid;
 			font-weight: 100;
@@ -23,11 +21,9 @@
 	.mx-datagrid-body-table {
 		/* Table body */
 		.mx-datagrid-body tr {
-
-			background-color: rgba(0, 0, 0, 0.17);
-
+			/* Styles here */
 			td {
-
+				/* Styles here */
 				&:focus {
 				}
 				/* Text without spaces */
@@ -36,8 +32,8 @@
 				}
 			}
 			//Added own selector to complement Bootstrap's grids.
-			&:nth-child(odd) td {
-				background-color: rgba(228, 228, 228, 0.17); //remove when variable has been added to custom file.
+			&:nth-child(odd) {
+				background-color: transparent;
 			}
 			&:hover td {
 
