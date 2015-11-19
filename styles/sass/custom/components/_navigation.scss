@@ -85,7 +85,7 @@
 	.navbar-inner ul {
 		/* Styles here */
 		li {
-				padding: 15px 0;
+			padding: 15px 0;
 			/* Styles here */
 			a {
 
@@ -101,7 +101,6 @@
 			a:hover,
 			a:focus,
 			a.active {
-
 				border-left: 4px solid #ffcb00;
 				/* Styles here */
 				.caret {
@@ -111,7 +110,7 @@
 
             a.active {
  			/* Styles here */
-					border-left: 4px solid #ffcb00;
+				border-left: 4px solid #ffcb00;
             }
 		}
 	}
@@ -146,7 +145,7 @@
    Default Mendix Simple Menu Bar
 ========================================================================== */
 .mx-menubar {
-	background-color: $color-inverse;
+	background-color: $brand-inverse;
 	ul.mx-menubar-list {
 		/* Styles here */
 		li.mx-menubar-item {

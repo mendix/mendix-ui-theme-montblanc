@@ -13,7 +13,7 @@
 .region-sidebar-fixed {
 	/* Styles here */
 	&.mx-scrollcontainer-toggleable {
-		background-color: $color-inverse;
+		background-color: $brand-inverse;
 	}
 	> .mx-layoutcontainer-wrapper {
 		/* Styles here */
@@ -33,7 +33,7 @@
 }
 .layout-sidebar-responsive {
 	.region-sidebar-fixed {
-		background: $color-sidebar-bg;
+		background: $sidebar-bg;
 	}
 }
 .navlayout-topbar .region-topbar .mx-navbar {
@@ -55,7 +55,6 @@
 		vertical-align: middle;
 	}
 	a {
-		color: #fff;
 		font-size: 14px;
 		font-weight: 100;
 		&:hover,
