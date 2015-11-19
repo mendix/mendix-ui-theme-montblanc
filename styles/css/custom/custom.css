@@ -1,3 +1,28 @@
+@charset "UTF-8";
+/*
+██████╗  █████╗ ███████╗██╗ ██████╗
+██╔══██╗██╔══██╗██╔════╝██║██╔════╝
+██████╔╝███████║███████╗██║██║     
+██╔══██╗██╔══██║╚════██║██║██║     
+██████╔╝██║  ██║███████║██║╚██████╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝
+*/
+/*
+ █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗ 
+██╔══██╗██╔══██╗██║   ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗
+███████║██║  ██║██║   ██║███████║██╔██╗ ██║██║     █████╗  ██║  ██║
+██╔══██║██║  ██║╚██╗ ██╔╝██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║
+██║  ██║██████╔╝ ╚████╔╝ ██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝
+╚═╝  ╚═╝╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝ 
+*/
+/*
+███████╗██╗  ██╗██████╗ ███████╗██████╗ ████████╗
+██╔════╝╚██╗██╔╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝
+█████╗   ╚███╔╝ ██████╔╝█████╗  ██████╔╝   ██║   
+██╔══╝   ██╔██╗ ██╔═══╝ ██╔══╝  ██╔══██╗   ██║   
+███████╗██╔╝ ██╗██║     ███████╗██║  ██║   ██║   
+╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   
+*/
 /* ==========================================================================
    Base
 
@@ -256,8 +281,13 @@ a:hover {
 /* ==========================================================================
    Inputs
 ========================================================================== */
-.form-control {
-  /* Styles here */
+.form-control[readonly] {
+  color: #FFF;
+  background-color: #3D3F41;
+}
+.form-control option {
+  color: #FFF;
+  background-color: #3D3F41;
 }
 
 textarea.form-control {
@@ -555,6 +585,9 @@ textarea.form-control {
 .mx-tabcontainer .mx-tabcontainer-tabs > li > a {
   /* Styles here */
 }
+.mx-tabcontainer .mx-tabcontainer-tabs > li > a:hover, .mx-tabcontainer .mx-tabcontainer-tabs > li > a:focus {
+  color: #000;
+}
 .mx-tabcontainer .mx-tabcontainer-content {
   /* Styles here */
 }
@@ -765,7 +798,6 @@ h1, h2, h3, h4, h5, h6,
   vertical-align: middle;
 }
 .navbar-brand a {
-  color: #fff;
   font-size: 14px;
   font-weight: 100;
 }
@@ -858,15 +890,15 @@ body[dir="ltr"] .mx-header {
   background-position: top center;
 }
 .page-dashboard .chartjs-node {
-  margin-top: 30px;
+  /* Styles Here */
 }
 
 .page-dashboard-default .card {
-  min-height: 345px;
+  /* Styles Here */
 }
 
 .page-dashboard-mytasks .card {
-  min-height: 320px;
+  /* Styles Here */
 }
 
 .page-dashboard-actions .card .btn-primary {
@@ -926,11 +958,15 @@ body[dir="ltr"] .mx-header {
   padding-bottom: 20px;
 }
 .page-tabs .tabsfullwidth {
-  background-color: transparent;
+  /* Styles Here */
+}
+
+.page-tabs-default {
+  /* Styles Here */
 }
 
 .page-tabs-fullwidth .pageheader.pageheader-fullwidth {
-  border-style: none;
+  /* Styles Here */
 }
 
 /* ==========================================================================
@@ -975,7 +1011,7 @@ body[dir="ltr"] .mx-header {
    Special styles for presenting Page Template Phone
 ========================================================================== */
 .phone-page-dashboard {
-  background-color: transparent;
+  /* Styles Here */
 }
 
 .phone-page-dashboard-default {
@@ -1023,7 +1059,7 @@ body[dir="ltr"] .mx-header {
    Special styles for presenting Page Template Tablet Dashboard
 ========================================================================== */
 .tablet-page-dashboard {
-  background-color: transparent;
+  /* Styles Here */
 }
 
 .tablet-page-dashboard-default {
