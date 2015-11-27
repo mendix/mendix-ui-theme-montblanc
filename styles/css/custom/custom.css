@@ -762,10 +762,6 @@ h1, h2, h3, h4, h5, h6,
 
    Used to style your app brand and logo
 ========================================================================== */
-.navbar-brand {
-  padding: 28px 45px;
-  margin-left: -22px;
-}
 .navbar-brand img {
   height: 25px;
   margin-right: 10px;
@@ -778,10 +774,6 @@ h1, h2, h3, h4, h5, h6,
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   /* Styles here */
-}
-
-.profile-tablet .navbar-brand {
-  padding: 32px 25px;
 }
 
 /*
