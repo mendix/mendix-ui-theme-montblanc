@@ -21,11 +21,11 @@
 				&:hover,
 				&:focus,
 				&.active {
-					color: $color-primary !important;
+					color: $brand-primary !important;
 				}
 			}
 			&.active a {
-				color: $color-primary;
+				color: $brand-primary;
   				&:after,
   				&:before {
   					

@@ -12,7 +12,7 @@
 			/* Styles here */
 			&:hover,
 			&:focus {
-
+				color: #000;
 			}
 		}
 
@@ -35,7 +35,7 @@
 //==========================================================================
 .tab-pills.mx-tabcontainer {
 	.mx-tabcontainer-tabs {
-		color: $color-text-white;
+		color: #FFF;
 		> li > a {
 			/* Styles here */
 			&:hover,
@@ -67,7 +67,7 @@
             > a {
                 &:hover,
                 &:focus {
-                	color: $color-primary;
+                	color: $brand-primary;
                 }
 
             }
@@ -75,7 +75,7 @@
             &.active > a,
             &.active > a:hover,
             &.active > a:focus {
-            	color: $color-primary;
+            	color: $brand-primary;
             }
         }
     }

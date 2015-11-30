@@ -13,7 +13,7 @@
 .region-sidebar-fixed {
 	/* Styles here */
 	&.mx-scrollcontainer-toggleable {
-		background-color: $color-inverse;
+		background-color: $brand-inverse;
 	}
 	> .mx-layoutcontainer-wrapper {
 		/* Styles here */
@@ -33,7 +33,7 @@
 }
 .layout-sidebar-responsive {
 	.region-sidebar-fixed {
-		background: $color-sidebar-bg;
+		background: $sidebar-bg;
 	}
 }
 .navlayout-topbar .region-topbar .mx-navbar {
@@ -46,8 +46,6 @@
    Used to style your app brand and logo
 ========================================================================== */
 .navbar-brand {
-	padding: 28px 45px;
-	margin-left: -22px;
 	img {
 		height: 25px;
 		margin-right: 10px;
@@ -55,7 +53,6 @@
 		vertical-align: middle;
 	}
 	a {
-		color: #fff;
 		font-size: 14px;
 		font-weight: 100;
 		&:hover,
@@ -63,7 +60,4 @@
 			/* Styles here */
 		}
 	}
-}
-.profile-tablet .navbar-brand {
-	padding: 32px 25px;
 }
