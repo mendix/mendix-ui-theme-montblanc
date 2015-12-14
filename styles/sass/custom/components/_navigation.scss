@@ -156,10 +156,10 @@
 			&:hover a,
 			&:focus a,
 			&.active a {
-				/* Styles here */
+				color: $brand-primary;
 			}
 			&.active a {
-				/* Styles here */
+				color: $brand-primary;
             }
 		}
 	}

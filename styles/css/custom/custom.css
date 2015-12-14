@@ -512,10 +512,10 @@ textarea.form-control {
   /* Styles here */
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item:hover a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item:focus a, .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
-  /* Styles here */
+  color: #ffcb00;
 }
 .mx-menubar ul.mx-menubar-list li.mx-menubar-item.active a {
-  /* Styles here */
+  color: #ffcb00;
 }
 
 .mx-menubar-vertical {
