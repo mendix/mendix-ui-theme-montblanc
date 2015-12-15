@@ -1104,12 +1104,6 @@ body[dir="ltr"] .mx-header {
   background-color: none;
   background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
 }
-.card h2 {
-  text-align: left;
-  font-weight: 100;
-  color: #FFF;
-  margin-left: 30px;
-}
 
 .card-header-action {
   /* Title + button + border below title and button */
@@ -1126,6 +1120,8 @@ body[dir="ltr"] .mx-header {
 }
 
 .card-title {
+  text-align: left;
+  font-weight: 100;
   color: #FFF;
 }
 
