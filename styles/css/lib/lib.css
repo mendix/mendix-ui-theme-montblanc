@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @media (max-width: 767px) {
   .mx-grid,
   .mx-tabcontainer,
@@ -4490,8 +4491,10 @@ body[dir="ltr"] .mx-header-right {
   line-height: 80px;
 }
 .navbar-brand img {
-  height: 37px;
+  height: 40px;
+  width: auto;
   display: inline-block;
+  vertical-align: middle;
 }
 .navbar-brand a {
   font-size: 20px;
