@@ -1,42 +1,11 @@
-/*
-* Mendix Documentation
-* Special styles for presenting mobile components
-*/
+/* ==========================================================================
+   Tabcontainer
 
-
-/*
-* Tabcontainer
-*
-* Default Mendix Tabcontainer for Mobile
-*/
+   Default Mendix Tabcontainer for Mobile 
+========================================================================== */
 .profile-phone,
 .profile-tablet {
-	.mx-tabcontainer-tabs {
-		border-color: transparent;
-		background-color: rgba(0, 0, 0, 0.38);
+    .mx-tabcontainer {
 
-		li {
-			a {
-				color: #FFF;
-				&:hover,
-				&:focus,
-				&.active {
-					color: $brand-primary !important;
-				}
-			}
-			&.active a {
-				color: $brand-primary;
-  				&:after,
-  				&:before {
-  					
-  				}
-  				&:after {
-  					
-  				}
-  				&:before {
-  					
-  				}
-			}
-		}
-	}
+    }
 }
