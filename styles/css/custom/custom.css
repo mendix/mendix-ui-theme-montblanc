@@ -848,13 +848,6 @@ body[dir="ltr"] .mx-header {
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
-.page-dashboard {
-  background-color: transparent;
-  background-color: #eff4f7;
-  background-image: url(../../../img/background.jpg);
-  background-size: cover;
-  background-position: top center;
-}
 .page-dashboard .chartjs-node {
   /* Styles Here */
 }
