@@ -860,11 +860,8 @@ body[dir="ltr"] .mx-header {
   /* Styles Here */
 }
 
-.page-dashboard-actions .card .btn-primary {
-  margin-top: -100px;
-}
-.page-dashboard-actions .card .btn-default {
-  margin-top: -100px;
+.page-dashboard-actions .card {
+  /* Styles Here */
 }
 
 /* ==========================================================================
